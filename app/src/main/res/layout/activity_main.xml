@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="31/10/2024"
+        android:textSize="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="10dp"/>
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="50dp"
+        />
+
+    <EditText
+        android:id="@+id/Year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:hint="Enter your of born"
+        android:textSize="50dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:onClick = "cala"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="50dp"/>
+
+    <TextView
+        android:id="@+id/D"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:text="Details"
+        android:textSize="50dp"
+        android:textAlignment="center"/>
+
+</LinearLayout>
